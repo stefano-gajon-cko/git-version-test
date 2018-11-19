@@ -5,7 +5,7 @@ branches:
   develop:
     mode: ContinuousDeployment
     tag: unstable
-    increment: Patch
+    increment: Minor
   releases?[/-]:
     mode: ContinuousDelivery
     tag: rc
