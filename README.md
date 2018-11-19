@@ -26,8 +26,7 @@ after commit+push version: 0.1.0-unstable.1
 
 *****************************
 
-current version: 0.1.0-unstable.1
-change env: DEV
+current version: 0.1.0-unstable.1aaaaaaaaaaa
 action: dummy change
 after commit+push version: 0.1.0-unstable.2
 
