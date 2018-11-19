@@ -22,3 +22,10 @@ branches:
 current version: 0.1.0-unstable.0
 change env: DEV
 action: dummy change
+after commit+push version: 0.1.0-unstable.1
+
+
+current version: 0.1.0-unstable.1
+change env: DEV
+action: dummy change
+after commit+push version: 0.1.0-unstable.2
