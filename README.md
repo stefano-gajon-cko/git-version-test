@@ -46,7 +46,7 @@ branches:
     tag: unstable
     increment: Patch
   releases?[/-]:
-    mode: ContinuousDelivery
+    mode: ContinuousDeliveryaaa
     tag: rc
     increment: Patch
     prevent-increment-of-merged-branch-version: true
