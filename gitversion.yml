@@ -17,4 +17,5 @@ branches:
     prevent-increment-of-merged-branch-version: true
   master:
     mode: ContinuousDelivery
+    increment: None
     prevent-increment-of-merged-branch-version: true
