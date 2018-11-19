@@ -1,12 +1,16 @@
-mode: ContinuousDelivery
+mode: ContinuousDeployment
 ignore:
   sha: []
 branches:
   develop:
+    mode: ContinuousDeployment
     tag: unstable
     increment: Patch
-  release:
+  releases?[/-]:
     mode: ContinuousDelivery
     tag: rc
     increment: Patch
+    prevent-increment-of-merged-branch-version: true
+  master:
+    mode: ContinuousDelivery
     prevent-increment-of-merged-branch-version: true
