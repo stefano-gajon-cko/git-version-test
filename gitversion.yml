@@ -11,6 +11,10 @@ branches:
     tag: rc
     increment: Patch
     prevent-increment-of-merged-branch-version: true
+  hotfix(es)?[/-]:
+    mode: ContinuousDelivery
+    increment: Patch
+    prevent-increment-of-merged-branch-version: true
   master:
     mode: ContinuousDelivery
     prevent-increment-of-merged-branch-version: true
