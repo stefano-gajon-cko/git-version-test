@@ -6,7 +6,7 @@ branches:
     mode: ContinuousDeployment
     tag: unstable
     increment: Minor
-  releases?[/-]:
+  release:
     mode: ContinuousDelivery
     tag: rc
     increment: Patch
