@@ -51,11 +51,11 @@ branches:
     increment: Patch
     prevent-increment-of-merged-branch-version: true
 
-after commit+push version: 0.1.0-unstable.2
+after commit+push version: 0.1.0-rc1+3
 
 *****************************
 
-current version: 0.1.0-rc1
+current version: 0.1.0-rc1+3
 env: release/0.1.0-rc.1
 action: dummy change
-after commit+push version: 0.1.0-rc2
+after commit+push version: 0.1.0-rc.1+4
